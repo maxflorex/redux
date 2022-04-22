@@ -10,7 +10,7 @@ export const setProducts = (products) => {
 export const setProdselectedProductucts = (product) => {
     return {
         type: ActionTypes.SELECTED_PRODUCTS,
-        payload: products,
+        payload: product,
     }
 }
 
